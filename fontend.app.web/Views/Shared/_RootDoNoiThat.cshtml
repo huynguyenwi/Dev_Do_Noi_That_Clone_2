@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta Data -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Grid | Ruper</title>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="media/favicon.png">
+
+	<!-- Dependency Styles -->
+	<link rel="stylesheet" href="~/libs/bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="~/libs/feather-font/css/iconfont.css" type="text/css">
+	<link rel="stylesheet" href="~/libs/icomoon-font/css/icomoon.css" type="text/css">
+	<link rel="stylesheet" href="~/libs/font-awesome/css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="~/libs/wpbingofont/css/wpbingofont.css" type="text/css">
+	<link rel="stylesheet" href="~/libs/elegant-icons/css/elegant.css" type="text/css">
+	<link rel="stylesheet" href="~/libs/slick/css/slick.css" type="text/css">
+	<link rel="stylesheet" href="~/libs/slick/css/slick-theme.css" type="text/css">
+	<link rel="stylesheet" href="~/libs/mmenu/css/mmenu.min.css" type="text/css">
+
+	<!-- Site Stylesheet -->
+	<link rel="stylesheet" href="~/css/app.css" type="text/css">
+	<link rel="stylesheet" href="~/css/responsive.css" type="text/css">
+
+	<!-- Google Web Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap" rel="stylesheet">
+</head>
+
+<body class="home home-4 title-4">
+	<div id="page" class="hfeed page-wrapper">
+	
+	@Html.Partial("_Header")
+
+	<main class="main">
+		@RenderBody()
+	</main>
+
+	@Html.Partial("_Footer")
+		
+
+	</div>
+
+	@Html.Partial("_ButtonTop")
+
+	<!-- Dependency Scripts -->
+	<script src="~/libs/popper/js/popper.min.js"></script>
+	<script src="~/libs/jquery/js/jquery.min.js"></script>
+	<script src="~/libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="~/libs/slick/js/slick.min.js"></script>
+	<script src="~/libs/countdown/js/jquery.countdown.min.js"></script>
+	<script src="~/libs/mmenu/js/jquery.mmenu.all.min.js"></script>
+
+	<!-- Site Scripts -->
+	<script src="~/js/app.js"></script>
+</body>
+</html>
